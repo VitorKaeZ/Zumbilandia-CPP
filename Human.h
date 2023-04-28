@@ -6,5 +6,7 @@ protected:
 	int defense;
 	int attack;
 	float speed;
+public:
+	int CheckHealth();
 };
 

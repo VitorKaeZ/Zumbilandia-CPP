@@ -1,12 +1,16 @@
 #include "Human.h"
 #include <iostream>
+#include "Item.h"
 
 using namespace std;
+
 
 class Player : public Human
 {
 protected:
-	string weapon;
+	Item inventory[5];
+	Item weapons[2];
+
 public:
 	Player();
 };
